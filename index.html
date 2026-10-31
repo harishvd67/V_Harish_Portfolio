@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>V Harish – Python, Machine Learning and Cloud</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><span class="name">V Harish</span><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#research">Research</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<div class="intro"><div class="me" role="img" aria-label="Portrait of V Harish"></div><h1>I turn data and machine learning models into working software.</h1></div>
+<p class="lead">Motivated and detail-oriented MCA graduate with an excellent academic record (CGPA: 9.01/10) and hands-on experience in Python, SQL, AWS, Machine Learning, Artificial Intelligence, Data Science and data analysis. Completed three internships in Data Science, Python development and Artificial Intelligence, gaining practical exposure to programming, problem-solving, data processing, and application development. Eager to contribute technical skills and learn new technologies in entry-level roles.</p>
+<div class="facts"><div class="fact"><b>9.01/10</b><span>MCA CGPA</span></div><div class="fact"><b>3</b><span>Internships</span></div><div class="fact"><b>5</b><span>Projects</span></div><div class="fact"><b>1</b><span>Published research paper</span></div></div>
+<p class="roles-h">Open to entry-level roles as</p>
+<ul class="roles"><li>Software Engineer</li><li>Python Developer</li><li>Data Analyst</li><li>Data Scientist</li><li>Data Engineer</li><li>Cloud Engineer</li><li>DevOps Engineer</li></ul>
+<div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn s" href="mailto:harishvd67@gmail.com">Email me</a></div>
+
+<div class="flow" role="img" aria-label="Flow from data to model to web app to AWS, matching my projects">
+<svg viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg">
+<rect class="box" x="6" y="22" width="140" height="76" rx="10"/><text class="t" x="76" y="56" text-anchor="middle">Data</text><text class="s" x="76" y="76" text-anchor="middle">Pandas, NumPy, EDA</text>
+<path class="ar" d="M148 60 H186"/><path class="ah" d="M194 60 L184 54 V66 Z"/>
+<rect class="box" x="196" y="22" width="140" height="76" rx="10"/><text class="t" x="266" y="56" text-anchor="middle">Model</text><text class="s" x="266" y="76" text-anchor="middle">SVM, Decision Tree, RAG</text>
+<path class="ar" d="M338 60 H376"/><path class="ah" d="M384 60 L374 54 V66 Z"/>
+<rect class="box" x="386" y="22" width="140" height="76" rx="10"/><text class="t" x="456" y="56" text-anchor="middle">Web app</text><text class="s" x="456" y="76" text-anchor="middle">Django, MySQL, APIs</text>
+<path class="ar" d="M528 60 H566"/><path class="ah" d="M574 60 L564 54 V66 Z"/>
+<rect class="box" x="576" y="22" width="118" height="76" rx="10"/><text class="t" x="635" y="56" text-anchor="middle">Cloud</text><text class="s" x="635" y="76" text-anchor="middle">AWS</text>
+</svg>
+</div>
+</header>
+
+<section id="projects">
+<h2>Projects</h2>
+<p class="sub">Five projects across machine learning, AI agents, web apps and cloud. Each is on GitHub except the AWS capstone.</p>
+<div class="grid">
+<article class="card big">
+<h3>Performance Optimization in Cloud Computing Using Machine Learning</h3>
+<p class="stack">Python, SVM, Decision Tree, Django, MySQL</p>
+<ul>
+<li>Built a machine learning system that predicts cloud task execution time with SVM and Decision Tree models, evaluated with MSE and R2.</li>
+<li>Engineered features from historical cloud workload data, compared the models, and picked the best performer for deployment.</li>
+<li>Deployed it as a Django web app with a MySQL database.</li>
+</ul>
+<p class="links"><a href="https://github.com/harishvd67/performance-optimization-cloud-ml">View on GitHub</a></p>
+</article>
+<article class="card">
+<h3>RAG Agent</h3>
+<p class="stack">Python, OpenAI API, GPT-4o-mini</p>
+<p>An AI agent that answers questions from your own TXT and PDF documents. It chunks and embeds the text, retrieves the top chunks by cosine similarity, and gives them to GPT-4o-mini as context for grounded answers.</p>
+<p class="links"><a href="https://github.com/harishvd67/RAG_AGENT">View on GitHub</a></p>
+</article>
+<article class="card">
+<h3>AWS capstone: scalable, highly available web app</h3>
+<p class="stack">VPC, EC2 Auto Scaling, ALB, RDS, S3, CloudFront, Route 53, IAM, CloudFormation/Terraform</p>
+<p>Designed and deployed a highly available architecture: EC2 instances with Auto Scaling behind an Application Load Balancer, RDS for the database, static content on S3 with CloudFront, DNS on Route 53, and IAM roles and policies for access. Provisioning is automated with infrastructure as code.</p>
+</article>
+<article class="card">
+<h3>Face Recognition Based Attendance Management System</h3>
+<p class="stack">Python, Django, SQLite, OpenCV, InsightFace (ArcFace), ONNX Runtime</p>
+<p>A Django app where students register with a browser camera capture and attendance is marked by face recognition, period by period. Faculty get a dashboard and day-wise CSV reports. Registration validates email and mobile numbers, and recognition uses InsightFace ArcFace embeddings.</p>
+<p class="links"><a href="https://github.com/harishvd67/Face-Recognition-Based-Attendance-Management-System">View on GitHub</a></p>
+</article>
+<article class="card">
+<h3>Chatbot Agent (Gemini)</h3>
+<p class="stack">Python, Google Gemini API, google-genai SDK, requests</p>
+<p>A tool-using AI agent that decides for itself when to call a tool instead of guessing: a safe calculator that avoids eval() and rejects code injection, the real current date and time, and live Wikipedia summaries.</p>
+<p class="links"><a href="https://github.com/harishvd67/Chatbot_Agent">View on GitHub</a></p>
+</article>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<p class="sub">Three internships across data science, Python and AI.</p>
+<div class="tl">
+<div class="job"><h3>Data Science Intern, Dr. Reddy’s Foundation Grow Tech</h3><p class="when">Marathahalli, Bengaluru · Jul 2026 – Oct 2026</p>
+<ul><li>Worked with real-world datasets, applying data science techniques to extract meaningful insights and support data-driven decision-making.</li><li>Followed the end-to-end data science process, including data collection, cleaning, preprocessing, exploratory data analysis (EDA), feature engineering, model building, and evaluation.</li><li>Cleaned, transformed, and analyzed datasets using Python, Pandas, and NumPy to prepare data for machine learning applications.</li><li>Performed exploratory data analysis and created insightful visualizations using Matplotlib and Seaborn to identify patterns, trends, and relationships.</li><li>Built and evaluated machine learning models using Scikit-learn to understand predictive modeling techniques and improve model performance.</li><li>Learned and applied PySpark fundamentals for distributed data processing and handling large datasets efficiently.</li><li>Gained practical exposure to AWS cloud services and explored cloud-based approaches for data processing, storage, and machine learning workflows.</li></ul></div>
+<div class="job"><h3>Python Intern, Slash Mark IT Solutions</h3><p class="when">Karimnagar · Jul 2025 – Sep 2025</p>
+<ul><li>Built a real-time face recognition system in Python with OpenCV, using CNN, PCA, LDA, SVM and KNN.</li><li>Augmented image datasets and tuned parameters to raise accuracy and cut false positives.</li><li>Followed clean-code and Git practices, organizing the code into reusable, testable modules.</li></ul></div>
+<div class="job"><h3>Artificial Intelligence Intern, SkillDzire</h3><p class="when">Hyderabad · Jul 2025 – Aug 2025</p>
+<ul><li>Developed and evaluated AI and ML models in Python for predictive tasks on real-world datasets.</li><li>Did data cleaning, feature engineering and EDA, then compared models on evaluation metrics and documented the findings.</li></ul></div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<p class="sub">Grouped by what I use them for.</p>
+<div class="card"><dl class="sk">
+<dt>Languages and databases</dt><dd>Python, SQL, MySQL</dd>
+<dt>Web and APIs</dt><dd>Django, FastAPI, REST APIs</dd>
+<dt>Machine learning</dt><dd>SVM, KNN, Decision Tree, CNN, PCA, LDA, classification, regression, model evaluation (MSE, R2)</dd>
+<dt>Generative AI</dt><dd>RAG, OpenAI API, embeddings, prompt engineering</dd>
+<dt>Python libraries</dt><dd>NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, OpenCV, PySpark</dd>
+<dt>AWS</dt><dd>S3, EC2, IAM, VPC, CloudFront, RDS/Aurora, Route 53, NFS</dd>
+<dt>Tools</dt><dd>Git, Visual Studio Code, Jupyter Notebook, Excel, Word, PowerPoint</dd>
+</dl></div>
+</section>
+
+<section id="research">
+<h2>Research</h2>
+<p class="sub">Published in the International Scientific Journal of Engineering &amp; Management (ISJEM), March 2026.</p>
+<div class="paper">
+<h3>Optimisation of Resource Utilisation in Cloud Computing Environments using Machine Learning</h3>
+<p>Compared SVM and Decision Tree models for predicting task execution time in the cloud. SVM gave the lower error. Presented at ACME TECH-2K26.</p>
+<p><a href="https://doi.org/10.55041/ISJEM05831">Read the paper (DOI 10.55041/ISJEM05831)</a></p>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="grid">
+<div class="card"><h3>MCA, 2024 – 2026</h3><p>Annamacharya Institute of Technology and Sciences, Tirupati<br>CGPA 9.01/10</p></div>
+<div class="card"><h3>B.Sc. (MPCs), 2021 – 2024</h3><p>Sri Venkateshwara University, Tirupati<br>CGPA 8.00/10</p></div>
+</div>
+</section>
+
+<section id="certifications">
+<h2>Certifications</h2>
+<p class="sub">Publication, internship, course and examination certificates.</p>
+<div class="grid">
+<div class="card"><img class="cert" data-cert="isjem" alt="Certificate of Publication, ISJEM certificate" style="aspect-ratio:1000/707"><h3>Certificate of Publication, ISJEM</h3><p>International Scientific Journal of Engineering and Management (peer-reviewed). Volume 05, Issue 03, March 2026. DOI 10.55041/ISJEM05831.</p><p class="hint">Click the certificate to enlarge.</p></div>
+<div class="card"><img class="cert" data-cert="skilldzire" alt="Artificial Intelligence Internship certificate" style="aspect-ratio:1000/707"><h3>Artificial Intelligence Internship</h3><p>SkillDzire. 1 Jul 2025 – 31 Aug 2025. 2 credits.</p><p class="hint">Click the certificate to enlarge.</p></div>
+<div class="card"><img class="cert" data-cert="slashmark" alt="Python Internship certificate" style="aspect-ratio:1000/708"><h3>Python Internship</h3><p>Slash Mark IT Solutions (OPC) Pvt Ltd. 15 Jul 2025 – 15 Sep 2025. 3 credits.</p><p class="hint">Click the certificate to enlarge.</p></div>
+<div class="card"><h3>Data Science Certificate</h3><p>Data Science Intern, Dr. Reddy’s Foundation Grow Tech, Marathahalli, Bengaluru.</p></div>
+<div class="card"><img class="cert" data-cert="nptel" alt="NPTEL Elite Certificate certificate" style="aspect-ratio:1000/716"><h3>NPTEL Elite Certificate</h3><p>Organizational Behaviour: Individual Dynamics in Organization. IIT Guwahati, Jan–Apr 2025 (12-week course). Score: 78%.</p><p class="hint">Click the certificate to enlarge.</p></div>
+<div class="card"><img class="cert" data-cert="ia" alt="Innovation Ambassador Training, Foundation Level certificate" style="aspect-ratio:1000/749"><h3>Innovation Ambassador Training, Foundation Level</h3><p>MoE’s Innovation Cell and AICTE. 16 online sessions, 30 contact hours. 2025–26.</p><p class="hint">Click the certificate to enlarge.</p></div>
+<div class="card"><img class="cert" data-cert="typing" alt="SBTET (AP) Technical Examination certificate" style="aspect-ratio:800/1132"><h3>SBTET (AP) Technical Examination</h3><p>Typewriting English Lower (30 WPM), Second Class. State Board of Technical Education and Training, Andhra Pradesh. 2023.</p><p class="hint">Click the certificate to enlarge.</p></div>
+</div>
+</section>
+
+<footer id="contact">
+<h2>Contact</h2>
+<p>I’m open to entry-level roles in software engineering, data science, data analytics, Python development, cloud engineering, data engineering and DevOps engineering.</p>
+<div class="row"><a href="mailto:harishvd67@gmail.com">harishvd67@gmail.com</a><a href="https://www.linkedin.com/in/v-harish-b1a91a357">LinkedIn</a><a href="https://github.com/harishvd67">GitHub</a><a href="https://harishvd67.github.io/">harishvd67.github.io</a></div>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
