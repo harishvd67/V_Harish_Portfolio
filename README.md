@@ -2,7 +2,7 @@
 
 Personal portfolio website of **V Harish**, an MCA graduate (CGPA 9.01/10) with hands-on experience in Python, SQL, AWS, Machine Learning, Artificial Intelligence, Data Science and data analysis.
 
-**Live site:** https://harishvd67.github.io/
+**Live site:** https://harishvd67.github.io/V_Harish_Portfolio/
 
 ## About
 
